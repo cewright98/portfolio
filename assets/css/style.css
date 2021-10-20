@@ -91,7 +91,7 @@ footer a {
 
 .about-me p {
     font-size: 28;
-    padding: 20px;
+    padding: 10px 20px 10px 60px;
 }
 
 .my-work {
@@ -162,5 +162,11 @@ footer a {
 
     .image1 img {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-me h2, .my-work h2 {
+        font-size: 30px;
     }
 }
