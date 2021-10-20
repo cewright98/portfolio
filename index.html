@@ -4,12 +4,15 @@
         <meta charset="UTF-8" />
         <title>Portfolio</title>
         <!-- link CSS file here -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body>
         <header>
-            <!-- my name and photo -->
-            <img src="./assets/images/avatar.png" alt="" />
-            <h1>Claire Wright</h1>
+            <div>
+                <!-- my name and photo -->
+                <img src="./assets/images/avatar.png" alt="" />
+                <h1>Claire Wright</h1>
+            </div>
             <!-- navigation links -->
             <nav>
                 <ul>
@@ -26,30 +29,58 @@
             </nav>
         </header>
 
-        <!-- hero section (if I have time) -->
-        <section class="hero">
-            <h2>Web Developer</h2>
-        </section>
-
-        <section id="about-me">
+        <section id="about-me" class="about-me">
             <h2>About Me</h2>
             <p>
                 I am a web developer currently enrolled in the UNC Coding Boot Camp. I am experienced in HTML, CSS, and JavaScript as well as Java. My primary focus is front-end development, although by the end of the Boot Camp I will be fully prepared for full-stack development.
+                <br>
                 <br>
                 I graduated from UNC-Chapel Hill in May 2020 with a double major in Political Science and Women's and Gender Studies, and I would love to incorporate this interdisciplinary background into a web developer role.
             </p>
         </section>
 
-        <section id="my-work">
+        <section id="my-work" class="my-work">
             <h2>My Work</h2>
-            <!-- figure out how to inlay previews of applications and add words over them -->
+            <!-- add images of my projects / placeholders for future work -->
+            <nav>
+                <a href="https://cewright98.github.io/run-buddy/" target="blank" class="image1">
+                    <img src="./assets/images/run-buddy.png" alt="preview of run-buddy project" class="image1" />
+                    <p>Run-Buddy</p>
+                </a>
+                <a href="https://cewright98.github.io/Horiseon/" target="blank" class="images">
+                    <img src="./assets/images/horiseon.png" alt="preview of horiseon project" />
+                    <p>Horiseon</p>
+                </a>
+                <a class="images">
+                    <img src="./assets/images/placeholder.jpeg" alt="placeholder for a future project" />
+                    <p>Future Project</p>
+                </a>
+                <a class="images">
+                    <img src="./assets/images/placeholder.jpeg" alt="placeholder for a future project" />
+                    <p>Future Project</p>
+                </a>
+                <a class="images">
+                    <img src="./assets/images/placeholder.jpeg" alt="placeholder for a future project" />
+                    <p>Future Project</p>
+                </a>
+            </nav>
         </section>
 
         <footer id="contact-me">
             <h3>Contact Me</h3>
-            <a href="tel:6503871810">(650) 387-1810</a>
-            <a href="mailto: cewright1998@gmail.com">cewright1998@gmail.com</a>
-            <a href="https://github.com/cewright98" target="_blank">GitHub</a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="tel:6503871810">(650) 387-1810</a>
+                    </li>
+                    <li>
+                        <a href="mailto: cewright1998@gmail.com">cewright1998@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/cewright98" target="_blank">GitHub</a>
+                    </li>
+                </ul>
+            </nav>
         </footer>
     </body>
 </html>
