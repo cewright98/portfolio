@@ -1,0 +1,97 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  color: #808080;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul, footer nav ul {
+  list-style-type: none;
+}
+
+header h1 {
+  font-size: 60px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #164021;
+}
+
+header a, footer a {
+  text-decoration: none;
+  color: #808080;
+}
+
+header a {
+  font-size: 20px;
+}
+
+footer a {
+  font-size: 15px;
+}
+
+header a:hover, footer a:hover, .my-work a:hover {
+  color: #164021;
+  cursor: pointer;
+}
+
+.about-me {
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 75px;
+  font-size: 18px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.my-work {
+  margin-bottom: 200px;
+  position: absolute;
+  top: 230px;
+  max-width: 60%;
+  margin-left: 350px;
+}
+
+.my-work nav {
+  padding-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-work img {
+  width: 200px;
+  height: 110px;
+  margin: 10px;
+  border: solid 2px #808080;
+  border-radius: 5%;
+}
+
+.images {
+  max-height: 240px;
+}
+
+.image1 img {
+  width: 1020px;
+  height: 500px;
+}
+
+.my-work a {
+  position: relative;
+  text-align: center;
+  color: #808080;
+  text-decoration: none;
+  padding: 0 50px 10px 50px;
+}
+
+.my-work p {
+  padding: 5px;
+  font-size: 20px;
+}

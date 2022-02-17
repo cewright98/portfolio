@@ -1,86 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Portfolio</title>
-        <!-- link CSS file here -->
-        <link rel="stylesheet" href="./assets/css/style.css" />
-    </head>
-    <body>
-        <header>
-            <div>
-                <!-- my name and photo -->
-                <img src="./assets/images/avatar.png" alt="" />
-                <h1>Claire Wright</h1>
-            </div>
-            <!-- navigation links -->
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#my-work">My Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <!-- link CSS file here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+  </head>
 
-        <section id="about-me" class="about-me">
-            <h2>About Me</h2>
-            <p>
-                I am a web developer currently enrolled in the UNC Coding Boot Camp. I am experienced in HTML, CSS, and JavaScript as well as Java. My primary focus is front-end development, although by the end of the Boot Camp I will be fully prepared for full-stack development.
-                <br>
-                <br>
-                I graduated from UNC-Chapel Hill in May 2020 with a double major in Political Science and Women's and Gender Studies, and I would love to incorporate this interdisciplinary background into a web developer role.
-            </p>
-        </section>
+  <body>
+    <header class="text-center my-5">
+      <div>
+        <!-- my name -->
+        <h1>Claire Wright</h1>
+      </div>
+      <!-- navigation links -->
+      <nav class="position-absolute top-25 start-50 translate-middle my-5 pb-5">
+        <ul class="list-group list-group-horizontal">
+          <li class="mx-4 underline" id="about-me-link">
+            <a>About Me</a>
+          </li>
+          <li class="mx-4" id="my-work-link">
+            <a>My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <section id="my-work" class="my-work">
-            <h2>My Work</h2>
-            <!-- add images of my projects / placeholders for future work -->
-            <nav>
-                <a href="https://cewright98.github.io/run-buddy/" target="blank" class="image1">
-                    <img src="./assets/images/run-buddy.png" alt="preview of run-buddy project" class="image1" />
-                    <p>Run-Buddy</p>
-                </a>
-                <a href="https://cewright98.github.io/Horiseon/" target="blank" class="images">
-                    <img src="./assets/images/horiseon.png" alt="preview of horiseon project" />
-                    <p>Horiseon</p>
-                </a>
-                <a href="https://cewright98.github.io/GAMEPLAYlist/" target="blank" class="images">
-                    <img src="./assets/images/GamePlaylist.png" alt="preview for GamePlaylist project" />
-                    <p>GamePlaylist</p>
-                </a>
-                <a href="https://sleepy-beyond-47602.herokuapp.com/" target="blank" class="images">
-                    <img src="./assets/images/StarGazr.png" alt="preview for StarGazr project" />
-                    <p>StarGazr</p>
-                </a>
-                <a class="images">
-                    <img src="./assets/images/placeholder.jpeg" alt="placeholder for a future project" />
-                    <p>Future Project</p>
-                </a>
-            </nav>
-        </section>
+    <section id="about-me" class="about-me">
+      <p>
+        Hi! My name is Claire Wright and I am a web developer currently enrolled in the UNC Coding Boot Camp. 
+        Back in 2020, I graduated from UNC-Chapel Hill with a double major in Political Science and Women's and Gender Studies.              Although I am now primarily focused on coding, I would love to incorporate this interdisciplinary background into a web development role.
+        Throughout my time at the UNC Boot Camp I have developed skills primarily in JavaScript. 
+        I am experienced with frameworks such as Node and React, as well as with databases including MySQL and NoSQL.
+        I am also very comfortable working with tools like jQuery, Bootstrap, and Git.
+      </p>
+    </section>
 
-        <footer id="contact-me">
-            <h3>Contact Me</h3>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="tel:6503871810">(650) 387-1810</a>
-                    </li>
-                    <li>
-                        <a href="mailto: cewright1998@gmail.com">cewright1998@gmail.com</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/cewright98" target="_blank">GitHub</a>
-                    </li>
-                </ul>
-            </nav>
-        </footer>
-    </body>
+    <section id="my-work" class="my-work hidden">
+      <!-- add images of my projects / placeholders for future work -->
+      <nav>
+        <a href="https://sleepy-beyond-47602.herokuapp.com/" target="blank" class="images">
+          <img src="./assets/images/StarGazr.png" alt="preview for StarGazr project" />
+          <p>StarGazr</p>
+        </a>
+        <a href="https://cewright98.github.io/GAMEPLAYlist/" target="blank" class="images">
+          <img src="./assets/images/GamePlaylist.png" alt="preview for GamePlaylist project" />
+          <p>GamePlaylist</p>
+        </a>
+        <a href="https://glacial-plateau-16713.herokuapp.com/" target="blank" class="images">
+          <img src="./assets/images/NoteTaker.png" alt="preview for NoteTaker project" />
+          <p>NoteTaker</p>
+        </a>
+        <a href="https://cewright98.github.io/Horiseon/" target="blank" class="images">
+          <img src="./assets/images/horiseon.png" alt="preview of horiseon project" />
+          <p>Horiseon</p>
+        </a>
+      </nav>
+    </section>
+
+    <footer id="contact-me" class="fixed-bottom mb-4 ms-3">
+      <nav>
+        <ul class="list-group list-group-horizontal">
+          <li class="mx-4">
+            <a href="tel:6503871810">(650) 387-1810</a>
+          </li>
+          <li class="mx-4">
+            <a href="mailto: cewright1998@gmail.com">cewright1998@gmail.com</a>
+          </li>
+          <li class="mx-4">
+            <a href="https://github.com/cewright98" target="_blank">GitHub</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
